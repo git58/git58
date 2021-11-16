@@ -26,9 +26,13 @@ alias nn='$HOME/bin/nano ~/.nanorc'
 alias nano='$HOME/bin/nano'
 alias vim='$HOME/bin/nano'
 alias vi='$HOME/bin/nano'
-alias g='geany'
+alias g='GTK_THEME=Adwaita:dark ~/bin/geany'
+alias geany='GTK_THEME=Adwaita:dark ~/bin/geany'
 # Development
-alias gc='git clone'
+alias gc='~/bin/git clone'
+alias git='~/bin/git'
+#other
+alias ip='ip -c'
 # Quick edit config
 alias sb='source ~/.bashrc'
 alias nb='nano ~/.bashrc'
@@ -39,4 +43,6 @@ export LANGUAGE=en_US.UTF-8
 # setup proxy
 export http_proxy='192.168.20.99:8080'
 export https_proxy='192.168.20.99:8080'
-
+#setup path
+export PATH=/home/borisov_i/bin:$PATH
+export PATH=/home/borisov_i/.local/bin:$PATH
